@@ -1,6 +1,6 @@
 // @flow
 
-function makeValidator() {
+function makeValidator(...args /* : any[] */) {
   var validators = [].slice.call(arguments);
   return validators.reduceRight((g, f) => {
     console.log(f, g);
@@ -17,7 +17,7 @@ function validateArray(validator) {
   }
 }
 
-function validateUnion() {
+function validateUnion(...args /* : any[] */) {
   var validators = [].slice.call(arguments);
   return function validateUnion(unvalidated) {
     for (var i = 0; i < validators.length; i++) {

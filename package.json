@@ -36,6 +36,6 @@
   },
   "bin": "bin/webidl-tools",
   "devDependencies": {
-    "flow-bin": "^0.22.1"
+    "flow-bin": "0.126.1"
   }
 }
