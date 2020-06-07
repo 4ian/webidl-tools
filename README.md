@@ -1,11 +1,10 @@
 webidl-tools
 ============
 
-[![NPM](https://img.shields.io/npm/v/webidl-tools.svg)](https://www.npmjs.com/package/webidl-tools) [![Build Status](https://travis-ci.org/markandrus/webidl-tools.svg?branch=master)](https://travis-ci.org/markandrus/webidl-tools)
 
-_**Note:** This project is a work-in-progress and exists primarily to enable
-some pet projects. As such, it is tuned to those use cases. If you need
-additional functionality, bug fixes, etc., please open a pull request._
+_**Note:** This is a **fork of the original _webidl-tools_ project** to add
+capabilities useful for generating Flow types for [GDevelop C++ library
+compiled to JavaScript with Emscripten](https://github.com/4ian/GDevelop/tree/master/GDevelop.js)._
 
 webidl-tools provides a suite of commands for extracting and transforming
 [WebIDL](https://www.w3.org/TR/WebIDL/).
